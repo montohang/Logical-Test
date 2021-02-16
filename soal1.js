@@ -1,3 +1,9 @@
+/* Ada 1 list dictionary kata-kata, contoh: ["hot", "dot", "dog", "lot", "log"] User akan memberikan 2
+input kata-kata (bisa saja tidak ada di dalam dictionary). Output adalah urutan untuk bisa mencari
+cara paling singkat untuk mengubah kata pertama menjadi kata kedua, namun, tiap langkah
+hanya bisa mengubah 1 huruf.
+*/
+
 const dict = [ 'hot', 'dot', 'dog', 'lot', 'log' ];
 var arr = [];
 
@@ -38,6 +44,6 @@ function printShortOfDict(word1, word2) {
 			arr = 'no way';
 		}
 	}
-	console.log(`ini dia kayaknya : ${arr}`);
+	console.log(`result : ${arr}`);
 }
-printShortOfDict('hit', 'dog');
+printShortOfDict('hit', 'dig');
